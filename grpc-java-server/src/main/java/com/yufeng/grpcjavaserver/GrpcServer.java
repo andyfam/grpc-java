@@ -1,4 +1,4 @@
-package com.yufeng.grpc.server;
+package com.yufeng.grpcjavaserver;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;

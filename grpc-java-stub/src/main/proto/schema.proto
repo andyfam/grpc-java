@@ -1,6 +1,6 @@
 syntax = "proto3";
 option java_multiple_files = true;
-package com.yufeng.grpc;
+package com.yufeng.grpcjavastub;
 
 message HelloRequest {
   string firstName = 1;

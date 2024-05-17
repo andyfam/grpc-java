@@ -1,8 +1,8 @@
-package com.yufeng.grpc.server;
+package com.yufeng.grpcjavaserver;
 
-import com.yufeng.grpc.HelloRequest;
-import com.yufeng.grpc.HelloResponse;
-import com.yufeng.grpc.HelloServiceGrpc;
+import com.yufeng.grpcjavastub.HelloRequest;
+import com.yufeng.grpcjavastub.HelloResponse;
+import com.yufeng.grpcjavastub.HelloServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
 public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {

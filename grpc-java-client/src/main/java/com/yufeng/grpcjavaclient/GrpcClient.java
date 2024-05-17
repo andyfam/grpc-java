@@ -1,8 +1,8 @@
-package com.yufeng.grpc.client;
+package com.yufeng.grpcjavaclient;
 
-import com.yufeng.grpc.HelloRequest;
-import com.yufeng.grpc.HelloResponse;
-import com.yufeng.grpc.HelloServiceGrpc;
+import com.yufeng.grpcjavastub.HelloRequest;
+import com.yufeng.grpcjavastub.HelloResponse;
+import com.yufeng.grpcjavastub.HelloServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
